@@ -1,13 +1,14 @@
-Host github.com
-HostName github.com
-User git
-Port 22
-PreferredAuthentications publickey
-IdentityFile "~/.ssh/github-imdotnhsang_rsa"
-
 Host github.com-imdotnhsang
 HostName github.com
 User git
 Port 22
 PreferredAuthentications publickey
 IdentityFile "~/.ssh/github-imdotnhsang_rsa"
+
+
+Host gitlab.com-imdotnhsang
+HostName gitlab.com
+User git
+Port 22
+PreferredAuthentications publickey
+IdentityFile "~/.ssh/gitlab-imdotnhsang_rsa"
