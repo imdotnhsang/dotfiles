@@ -91,53 +91,57 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
 
-alias zshconfig="nano ~/.zshrc"
+# Aliases
+alias zshcf="nano ~/.zshrc"
+alias bzsh="source ~/.zshrc"
 alias ..="cd .."
+alias ...="cd ../.."
 
-# generate ssh key
-alias gen-sshkey="ssh-keygen -t rsa -b 4096"
+# env
+alias nvm="fnm"
+alias rvm="rbenv"
+alias gvm="gvm"
 
-# init react app with create-react-app
-alias cra="yarn create react-app"
-alias cra-ts="yarn create react-app --template typescript"
+# SSH
+alias genssh="ssh-keygen -t rsa -b 4096"
 
-# init react app with vite
-alias viter="npm create vite@latest react"
-alias viter-ts="npm create vite@latest react-ts"
+# React
+alias cra="npm create vite@latest react"
+alias crnext="npx create-next-app@latest"
+alias crn="npx react-native init --version $1 $2"
+alias podi="cd ios && pod install --repo-update && cd .."
+alias bundli="cd ios && bundler install --repo-update && cd .."
+alias bapk="cd android && ./gradlew clean && ./gradlew assembleRelease && open ./app/build/outputs/apk/release && cd .."
+alias baab="cd android && ./gradlew clean && ./gradlew bundleRelease && open ./app/build/outputs/bundle/release && cd .."
+alias rnm="rm -rf node_modules"
+alias ni="npm i"
+alias nid="npm i -D"
+alias nrs="npm run start"
+alias nrsd="npm run start:dev"
+alias nrb="npm run build"
+alias nrbd="npm run build:dev"
 
-# install pod
-alias ipod="cd ios && pod install --repo-update && cd .."
-
-# clear cache ios
-alias cls-ios="rm -rf ~/Library/Caches/CocoaPods && rm -rf Pods && rm -rf ~/Library/Developer/Xcode/DerivedData/* && pod deintegrate && pod setup && pod install"
-
-# build android apk and aab
-alias build-apk="cd android && ./gradlew clean && ./gradlew assembleRelease && open ./app/build/outputs/apk/release && cd .."
-alias build-aab="cd android && ./gradlew clean && ./gradlew bundleRelease && open ./app/build/outputs/bundle/release && cd .."
-
-# init react native app
-alias crn="npx react-native init"
-alias crn-ts="npx react-native init --template react-native-template-typescript"
+# VSCode
+alias vc="code"
+alias vco="code ."
 
 # homebrew
-eval "$(/opt/homebrew/bin/brew shellenv)"
-alias brewi-arch arch -x86_64 brew install
+alias bi="brew install"
+alias bic="brew install --cask"
+alias axbi="arch -x86_64 brew install"
+alias axbic="arch -x86_64 brew install --cask"
 
-# go version manager
+
+# Configs
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 [[ -s "/Users/imdotnhsang/.gvm/scripts/gvm" ]] && source "/Users/imdotnhsang/.gvm/scripts/gvm"
 
-# ruby version manager
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-# node version manager
 eval "$(fnm env --use-on-cd)"
 
-# react native android
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
