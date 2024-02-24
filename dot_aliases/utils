@@ -1,2 +1,4 @@
 alias genssh="ssh-keygen -t rsa -b 4096"
 alias st="speedtest"
+alias npk="npx npkill"
+alias nkp="npx kill-port"
