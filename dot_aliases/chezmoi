@@ -1,4 +1,4 @@
 export CZ="chezmoi"
 
 alias cz="${CZ}"
-alias czud="${CZ} add ~/.zshrc ~/.ssh/config ~/.gitconfig ~/.aliases"
+alias cza="${CZ} add ~/.zshrc ~/.ssh/config ~/.gitconfig ~/.aliases"
