@@ -2,9 +2,9 @@
         co = checkout
         cob = checkout -b
 	dev = !git checkout develop && git pull origin develop
-        staging = !git checkout staging && git pull origin staging
-        main = !git checkout main && git pull origin
-        master = !git checkout master && git pull origin
+        stg = !git checkout staging && git pull origin staging
+        main = !git checkout main && git pull origin main
+        master = !git checkout master && git pull origin master
 	pllo = pull origin
 	psho = push origin
 	email = !git config --local user.email

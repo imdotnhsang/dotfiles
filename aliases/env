@@ -1,0 +1,3 @@
+alias nvm="fnm"
+alias rvm="rbenv"
+alias gvm="gvm"

@@ -1,0 +1,11 @@
+export BR="brew"
+
+alias brud="${BR} update"
+alias bro="${BR} outdated"
+alias brug="${BR} upgrade"
+alias brcl="${BR} cleanup --prune=all"
+alias brdr="${BR} doctor"
+alias bi="${BR} install"
+alias bic="${BR} install --cask"
+alias archbi="arch -x86_64 ${BR} install"
+alias archbic="arch -x86_64 ${BR} install --cask"
