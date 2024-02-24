@@ -1,4 +1,3 @@
-alias vc="code"
 alias vco="code ."
 alias cra="npm create vite@latest react"
 alias crnext="npx create-next-app@latest"
