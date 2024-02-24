@@ -7,14 +7,14 @@ plugins=(git z zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # Aliases
-. ~/aliases/brew
-. ~/aliases/chezmoi
-. ~/aliases/code
-. ~/aliases/env
-. ~/aliases/files
-. ~/aliases/git
-. ~/aliases/terminal
-. ~/aliases/utils
+. ~/.aliases/brew
+. ~/.aliases/chezmoi
+. ~/.aliases/code
+. ~/.aliases/env
+. ~/.aliases/files
+. ~/.aliases/git
+. ~/.aliases/terminal
+. ~/.aliases/utils
 
 # Configs
 eval "$(/opt/homebrew/bin/brew shellenv)"
