@@ -1,5 +1,6 @@
 export BR="brew"
 
+alias brl="${BR} list"
 alias brud="${BR} update"
 alias bro="${BR} outdated"
 alias brug="${BR} upgrade"
