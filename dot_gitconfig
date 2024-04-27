@@ -4,13 +4,6 @@
 	username = imdotnhsang
 [init]
 	defaultBranch = main
-[alias]
-  aa = add .
-  ca = commit --amend -m
-  cara = commit --amend --reset-author --no-edit
-  psf = push -f 
-  reh = reset --hard
-  res = reset --soft
 [color]
 	ui = auto
 [color "branch"]
