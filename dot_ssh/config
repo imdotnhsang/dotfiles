@@ -5,7 +5,6 @@ Port 22
 PreferredAuthentications publickey
 IdentityFile "~/.ssh/github-imdotnhsang_rsa"
 
-
 Host gitlab.com-imdotnhsang
 HostName gitlab.com
 User git
