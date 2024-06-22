@@ -11,7 +11,7 @@ source $ZSH/oh-my-zsh.sh
 . ~/.aliases/chezmoi
 . ~/.aliases/code
 . ~/.aliases/env
-. ~/.aliases/files
+. ~/.aliases/file
 . ~/.aliases/git
 . ~/.aliases/terminal
 . ~/.aliases/utils
