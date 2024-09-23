@@ -11,3 +11,10 @@ User git
 Port 22
 PreferredAuthentications publickey
 IdentityFile "~/.ssh/gitlab-imdotnhsang_rsa"
+
+Host gitlab.zim.vn-leo
+HostName gitlab.zim.vn
+User git
+Port 22
+PreferredAuthentications publickey
+IdentityFile "~/.ssh/gitlab-zim-leo_rsa"
