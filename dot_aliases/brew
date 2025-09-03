@@ -1,5 +1,6 @@
 export BR="brew"
 
+# brew commands
 alias brl="${BR} list"
 alias brud="${BR} update"
 alias bro="${BR} outdated"
@@ -8,5 +9,7 @@ alias brcl="${BR} cleanup --prune=all"
 alias brdr="${BR} doctor"
 alias bri="${BR} install"
 alias bric="${BR} install --cask"
+
+# install brew packages for arm64
 alias archbi="arch -x86_64 ${BR} install"
 alias archbic="arch -x86_64 ${BR} install --cask"
