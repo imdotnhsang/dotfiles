@@ -45,10 +45,9 @@ if [ -d "$FNM_PATH" ]; then
   eval "`fnm env`"
 fi
 
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
-
 # Setup JEnv to install run
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+
 # Have JAVA_HOME set by JEnv for us...
 jenv enable-plugin export
