@@ -1,27 +1,27 @@
-Host github.com-imdotnhsang
+Host github.com-me
 HostName github.com
 User git
 Port 22
 PreferredAuthentications publickey
-IdentityFile "~/.ssh/github-imdotnhsang_rsa"
+IdentityFile "~/.ssh/github-me_rsa"
 
-Host github.com-leo-vnnor
+Host github.com-leo-synplan
 HostName github.com
 User git
 Port 22
 PreferredAuthentications publickey
-IdentityFile "~/.ssh/github-leo-vnnor_rsa"
+IdentityFile "~/.ssh/github-leo-synplan_rsa"
 
-Host gitlab.com-imdotnhsang
+Host gitlab.com-me
 HostName gitlab.com
 User git
 Port 22
 PreferredAuthentications publickey
-IdentityFile "~/.ssh/gitlab-imdotnhsang_rsa"
+IdentityFile "~/.ssh/gitlab-me_rsa"
 
-Host bitbucket.org-imdotnhsang
+Host bitbucket.org-me
 HostName bitbucket.org
 User git
 Port 22
 PreferredAuthentications publickey
-IdentityFile "~/.ssh/bitbucket-imdotnhsang_rsa"
+IdentityFile "~/.ssh/bitbucket-me_rsa"
