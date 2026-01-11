@@ -1,26 +1,20 @@
-# open code in current directory
 alias co="code ."
 
-# create react app commands
 alias cra="npm create vite@latest react"
 alias crnext="npx create-next-app@latest"
 
-# react native commands
 alias podi="cd ios && pod install --repo-update && cd .."
 alias bundli="cd ios && bundler install --repo-update && cd .."
 alias bapk="cd android && ./gradlew clean && ./gradlew assembleRelease && open ./app/build/outputs/apk/release && cd .."
 alias baab="cd android && ./gradlew clean && ./gradlew bundleRelease && open ./app/build/outputs/bundle/release && cd .."
 
-# remove node_modules
 alias rnm="rm -rf node_modules"
 
-# playwright commands
 alias nxe2e="npx playwright test"
 alias nxe2eui="npx playwright test --ui"
 alias gente2e="npx playwright codegen"
 alias nxe2erp="npx playwright show-report"
 
-# npm commands
 alias nr="npm run"
 alias ni="npm i"
 alias nid="npm i -D"
@@ -41,7 +35,6 @@ alias nrlf="npm run lint:fix"
 alias nrfm="npm run format"
 alias nrtsc="npm run typecheck"
 
-# yarn commands
 alias y="yarn"
 alias yi="yarn add"
 alias yid="yarn add -D"
@@ -58,7 +51,6 @@ alias yrlf="yarn run lint:fix"
 alias yfm="yarn run format"
 alias ytsc="yarn run typecheck"
 
-# pnpm commands
 alias pnr="pnpm run"
 alias pni="pnpm install"
 alias pnid="pnpm i -D"

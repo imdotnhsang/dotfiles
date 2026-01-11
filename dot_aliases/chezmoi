@@ -2,3 +2,4 @@ export CZ="chezmoi"
 
 alias cz="${CZ}"
 alias cza="${CZ} add ~/.zshrc ~/.ssh/config ~/.gitconfig ~/.aliases"
+alias czud="${CZ} update"
