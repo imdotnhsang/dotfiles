@@ -5,12 +5,12 @@ Port 22
 PreferredAuthentications publickey
 IdentityFile "~/.ssh/github-me_rsa"
 
-Host github.com-leo-synplan
+Host github.com-spl-me
 HostName github.com
 User git
 Port 22
 PreferredAuthentications publickey
-IdentityFile "~/.ssh/github-leo-synplan_rsa"
+IdentityFile "~/.ssh/github-spl-me_rsa"
 
 Host gitlab.com-me
 HostName gitlab.com
