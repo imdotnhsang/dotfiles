@@ -1,4 +1,5 @@
 alias co="code ."
+alias cso="cursor ."
 
 alias cra="npm create vite@latest react"
 alias crnext="npx create-next-app@latest"
